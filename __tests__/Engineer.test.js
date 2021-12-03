@@ -7,6 +7,7 @@ test('creates an Engineer object', () => {
     expect(engineer.name).toBe('John');
     expect(engineer.Id).toBe('001');
     expect(engineer.email).toBe('J001@madeup.com');
+    expect(engineer.Github).toBe('github.com/John')
     expect(engineer.role).toBe('Engineer');
 });
 
@@ -26,6 +27,12 @@ test('gets the email of the engineer', () => {
     const engineer = new Engineer('John');
 
     expect(engineer.getEmail()).toBe('J001@madeup.com');
+});
+
+test('gets the GitHub of the engineer', () => {
+    const engineer = new Engineer('John');
+
+    expect(engineer.getGithub()).toBe('github.com/John');
 });
 
 test('gets the role of the engineer', () => {
