@@ -1,10 +1,11 @@
 const interncard = (intern) => {
     return `
     <div class="col-4 my-4 d-flex justify-content-center">
-                <div class="card shadow-sm mb-5 rounded" style="width: 18rem;">
+                <div class="card shadow-sm mb-5 rounded" style="width: 20rem;">
 
                     <div class="card-body bg-primary">
-                        <h5 class="card-title text-light">${intern.name}<br><i class="fas fa-user-graduate"></i>${intern.getRole()}</h5>
+                        <h5 class="card-title text-light">${intern.name}</h5>
+                        <h6 class="card-title text-light"><i class="fas fa-user-graduate"></i> ${intern.getRole()}</h6>
                     </div>
                     <div class="card-body bg-gray">
                         <ul class="list-group list-group-flush bg-light border">
