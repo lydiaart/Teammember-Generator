@@ -26,9 +26,9 @@ This application is to generate a team member webpage. Start with node index.js 
   
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:
-<p><img src="./src/README-generator.gif" alt="Demonstration"/></p>
+<p><img src="./" alt="Demonstration"/></p>
 Please lick on the following link for clearer video:
-<p><a href="https://watch.screencastify.com/v/WCzGjdQZBCHbf1ojARLu">Link</a></p>
+<p><a href="">Link</a></p>
 
 ## Website
 * [Repository](https://github.com/flowingcityloy/Teammember-Generator)

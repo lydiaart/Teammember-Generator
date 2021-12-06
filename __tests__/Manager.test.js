@@ -1,13 +1,13 @@
 const Manager = require('../lib/Manager.js')
 
 test('creates an Manager object', () => {
-    const manager = new Manager('Jesus');
+    const manager = new Manager('Jesus', '003', 'J003@madeup.com', '773-364-5892');
 
     expect(manager.name).toBe('Jesus');
-    expect(manager.Id).toBe('003');
+    expect(manager.id).toBe('003');
     expect(manager.email).toBe('J003@madeup.com');
     expect(manager.officeNumber).toBe('773-364-5892')
-    expect(manager.role).toBe('Manager');
+    expect(manager.getRole()).toBe('Manager');
 });
 
 test('gets the name of the manager', () => {
@@ -29,13 +29,13 @@ test('gets the email of the manager', () => {
 });
 
 test('gets the office number of the manager', () => {
-    const manager = new Manager('Janet', '143', 'J143@madeup.com');
+    const manager = new Manager('Janet', '143', 'J143@madeup.com', '773-364-5892');
 
-    expect(manager.getofficeNumber()).toBe('773-364-5892');
+    expect(manager.getOfficeNumber()).toBe('773-364-5892');
 });
 
 test('gets the role of the manager', () => {
-    const manager = new Manager('Justin', '153', 'J153@madeup.com');
+    const manager = new Manager('Justin', '153', 'J153@madeup.com', 'Manager');
 
     expect(manager.getRole()).toBe('Manager');
 });
