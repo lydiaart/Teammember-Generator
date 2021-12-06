@@ -31,7 +31,8 @@ Please lick on the following link for clearer video:
 <p><a href="https://watch.screencastify.com/v/Q5j6W9qPtQ8iyt3L0VUo">Link</a></p>
 
 ## Website
-[Repository](https://github.com/flowingcityloy/Teammember-Generator)
+[Repository](https://github.com/flowingcityloy/Teammember-Generator)<br>
+[Live Site](https://flowingcityloy.github.io/Teammember-Generator/)
 
 ## Credits
 Lydia Loy
