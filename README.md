@@ -27,7 +27,7 @@ This application is to generate a team member webpage. Start with node index.js 
 ## Usage 
 The following image demonstrates the web application's appearance and functionality:
 <p><img src="./src/Teammember-Generator.gif" alt="Demonstration"/></p>
-Please lick on the following link for clearer video:
+Please click on the following link for clearer video:
 <p><a href="https://watch.screencastify.com/v/Q5j6W9qPtQ8iyt3L0VUo">Link</a></p>
 
 ## Website
