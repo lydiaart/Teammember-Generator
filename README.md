@@ -35,7 +35,7 @@ Please click on the following link for clearer video:
 [Live Site](https://flowingcityloy.github.io/Teammember-Generator/)
 
 ## Credits
-Lydia Loy
+Lydia L
     
 ## Questions
   
